@@ -5,6 +5,7 @@ class MainClass(object):
     def make_call(self):
         return RequestClass.post_request()
 
+
 class RequestClass(object):
     @staticmethod
     def post_request():
